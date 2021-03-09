@@ -1,2 +1,4 @@
 # mod-security
-git clone https://github.com/SpiderLabs/owasp-modsecurity-crs.git /usr/share/modsecurity-crs
+https://github.com/SpiderLabs/owasp-modsecurity-crs.git /usr/share/modsecurity-crs
+
+retry=3 minlen=8 difok=3 lcredit=-1 ucredit=-1 dcredit=-1 ocredit=-1 reject_username enforce_for_root
